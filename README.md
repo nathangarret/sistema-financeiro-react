@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+### Sistema Financeiro Proa
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O Sistema Financeiro Proa é uma plataforma poderosa e versátil que oferece soluções abrangentes para gerenciamento financeiro pessoal e empresarial. Este README fornece informações essenciais para ajudar você a começar a usar o sistema.
 
-## Available Scripts
+## Funcionalidades Principais
+- Entradas (ou Receitas): As entradas representam o dinheiro que entra no sistema financeiro. Isso pode incluir salários, renda de investimentos, empréstimos, vendas de ativos ou qualquer outra forma de receita financeira. As entradas são essenciais para financiar as despesas e alcançar metas financeiras.
+- Saídas (ou Despesas): As saídas representam o dinheiro que sai do sistema financeiro para pagar despesas, contas e compras. Isso inclui despesas diárias, como contas de moradia, alimentação, transporte, entretenimento, bem como despesas de longo prazo, como empréstimos e investimentos. Gerenciar eficazmente as saídas é crucial para manter o equilíbrio financeiro.
+- Gastos: Os gastos são uma categoria específica de saídas e referem-se a despesas ou custos incorridos no dia a dia. Isso pode incluir compras de supermercado, despesas de transporte, jantar fora, assinaturas de serviços e muito mais. Controlar os gastos é fundamental para manter um orçamento equilibrado.
+- Entradas e Saídas Líquidas: A diferença entre as entradas e as saídas representa as entradas e saídas líquidas, que refletem o resultado financeiro geral. Se as entradas superarem as saídas, você terá um resultado positivo (superávit), o que é desejável para o crescimento financeiro. Se as saídas forem maiores que as entradas, você terá um resultado negativo (déficit), o que requer ajustes financeiros.
+- Orçamento Financeiro: Um orçamento financeiro é uma ferramenta que ajuda a planejar e controlar entradas e saídas. Ele permite que você estabeleça metas para suas finanças, aloque fundos para diferentes categorias de despesas e monitore seu progresso.
+- Gestão Financeira: A gestão financeira envolve tomar decisões inteligentes sobre como gerenciar entradas e saídas. Isso pode incluir investir dinheiro excedente, economizar para objetivos financeiros específicos, reduzir despesas não essenciais e garantir que as finanças estejam equilibradas e saudáveis.
 
-In the project directory, you can run:
+## Requisitos de Instalação
 
-### `npm start`
+Node.js (versão 12 ou superior)
+npm (gerenciador de pacotes do Node.js)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Instalação
+Clone o repositório do Sistema Financeiro Proa:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+git clone https://github.com/nathangarret/sistema-financeiro-react.git
+Navegue até o diretório do projeto:
 
-### `npm test`
+cd sistema-financeiro-react
+Instale as dependências:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+npm install
+Inicie o servidor de desenvolvimento:
 
-### `npm run build`
+npm start
+Abra seu navegador e acesse o sistema em http://localhost:3000.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Configuração
+Antes de usar o Sistema Financeiro Proa em um ambiente de produção, você deve configurar o arquivo .env para definir variáveis de ambiente importantes, como chaves de API e configurações de banco de dados. Certifique-se de revisar o arquivo .env.example para obter informações sobre as variáveis de ambiente necessárias.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contribuição
+Agradecemos contribuições para o projeto. Se você deseja contribuir, siga estas etapas:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Crie um fork do repositório.
 
-### `npm run eject`
+Crie uma branch para sua contribuição:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+git checkout -b minha-contribuicao
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Faça suas alterações e comunique-as com commits descritivos.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Envie um pull request para o repositório original.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Aguarde a revisão e a fusão da sua contribuição.
 
-## Learn More
+## Contato
+Se você tiver alguma dúvida ou precisar de suporte, entre em contato conosco em contatonatgarrett@gmail.com.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Obrigado por escolher o Sistema Financeiro Proa para suas necessidades financeiras!
